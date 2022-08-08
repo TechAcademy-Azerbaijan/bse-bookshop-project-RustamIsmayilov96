@@ -1,0 +1,99 @@
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #109E97;
+}
+b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+del{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF0000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.first{  
+     box-sizing: border-box;
+     background: #000000;
+     border-radius: 0px;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 21px;
+      text-align: center;
+     letter-spacing: 2px;
+     color: #FFFFFF;
+}
+.second{
+    text-align: right;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
+.third{
+    box-sizing: border-box;
+border: 1px solid #808080;
+border-radius: 0px;
+}
+.four{
+    width: 300px;
+    height: 478px;
+    left: 8px;
+    top: 1185px;
+    background: url(.jpg);
+    border-radius: 0px;
+}
+.five{
+    width: 300px;
+    height: 478px;
+    left: 8px;
+    top: 1185px;
+    background: url(.jpg);
+    border-radius: 0px;
+}
+.six{
+  text-align: center;
+}
+.seven{
+    box-sizing: border-box;
+    background: #109E97;
+    border-radius: 0px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.gonder{
+    background: #109E97;
+border: 2px solid #767676;
+border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
