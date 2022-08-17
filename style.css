@@ -5,8 +5,41 @@
 header{
     width: 100%;
     height: 130px;
-    background: #109E97;
+    background: #FFFFFF;
     position: relative;
+}
+nav{
+     background-color:#109E97; 
+     Width:100%;
+     display: flex;
+     justify-content: center;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+}
+.nav-link{
+    border-left: 1px white;
+    width: 20%;
+    border-right: 1px solid white
+}
+
+.nav-link:first-child{
+    border-left: 1px solid white
+
 }
 
 .header-text{
@@ -20,228 +53,90 @@ header{
     font-weight: 400;
     font-size: 49px;
     line-height: 50px; 
-    color: #FFFFFF;
+    color: #109E97;
     text-decoration: none;
 }
 .box{
-    position: relative;
-    width: 60%;
-    height: 454px;
-    border: 2px solid #FFD6D6;
-    margin: auto
+    background-image: url(/Image/cover.jpg);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    padding: 40px 0;
 }
-.box1{
-position: absolute;
-width: 70%; 
-border: 2px solid #B0E9B0;
-top: 0;
-right: 0
-}
-.Basliq{
-    width: 602px;
-    height: 26px;
-    left: 752px;
-    top: 234px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    color: #000000;
-}
-.image{
+.boks{
 width: 300px;
-height: 450px;
-left: 370px;
-top: 234px;
-background: url(.jpg);
-border-radius: 0px;
-}
-.sil{
-
+height: 391px;
 }
 
-b{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #008000;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 29px;
+.yazi{
+    width: 390px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
 }
-.sil{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FF0000;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    text-decoration:line-through;
-}
-.box2{
- position: absolute;
-width: 70%; 
-border: 2px solid #B0E9B0;
-bottom: 0;
-right: 0
-}
-p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    color: #000000;  
-}
-span{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 18px;
-letter-spacing: 2px;
 
-color: #000000;
-}
+
+
+
+
 .Sebet{
-      width: 149px;
-      height: 48px;
-      left: 752px;
-       top: 634px;
-    background: #109E97;
-    border: 1px solid #109E97;
-    border-radius: 4px;
+width: 148px;
+height: 44px;
+
+background: #109E97;
+border: 1px solid #109E97;
+border-radius: 4px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 15px;
 line-height: 23px;
-color:#ffffff;
-}
-.box3{
-margin: auto;
-    margin-top: 130px;
-    width: 60%;
-    border: 2px solid #FFD6D6;
-    
-}
-h3{
-    margin-top: 30px;
-    text-align: center;
-}
 
-
-
-.third{
-/* border: 1px solid #808080; */
-border-collapse: collapse
-}
-
-.third tr{
-    border-bottom: 1px solid black;
-}
-
-.third td{
-    padding: 8px
-}
-
-
-.four{
-    width: 300px;
-    height: 455px;
-    left: 1176px;
-    top: 1133px;
-    
-
-background: url(.jpg);
-border-radius: 0px;
-
-}
-.five{
-    width: 300px;
-    height: 455px;
-    left: 1176px;
-    top: 1133px;
-    
-background: url(.jpg);
-border-radius: 0px;
-
-}
-.six{
-  text-align: center;
-}
-.seven{
-    box-sizing: border-box;
-    background: #109E97;
-    border-radius: 0px;
-
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 80px;
 text-align: center;
-
 color: #FFFFFF;
 }
-.gonder{
-    width: 91px;
-    height: 48px;
-    left: 873px;
-    top: 1524px;
-    
-    background: #109E97;
-    border: 1px solid #109E97;
-    border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    
-    color: #FFFFFF;
-
-}
-.first{
-
+.basliqq{
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 26px;
-line-height: 26px;
+font-size: 32px;
+line-height: 32px;
 text-align: center;
 text-transform: uppercase;
-color: #000000;
+margin: 50px 0;
 }
+
 .icon1{
-    position: absolute;
+    position: fixed;
 width: 50px;
 height: 50px;
 left: 90%;
 top: 300px;
 }
 .icon2{
-    position: absolute;
+    position: fixed;
 width: 50px;
 height: 50px;
 left: 90%;
 top: 360px;
 }
 .icon3{
-    position: absolute;
+    position: fixed;
 width: 50px;
 height: 50px;
 left: 90%;
 top: 420px;
 }
 .icon4{
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 50px;
     left: 90%;
     top: 480px;
 }
 .icon5{
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 50px;
     left: 90%;
@@ -249,11 +144,56 @@ top: 420px;
 }
 
 
+.sekiller{
+  
+width: 960px;
+height: 1155px;
+left: 439px;
+margin: auto;
+border: 2px solid #916A6A;
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+padding: 55px;
+}
+.bir{
+    text-align: center;
+    width: 252px;
+    height: 344px;
+    border: 1px solid #109E97;
+}
+.klik{
+    text-decoration: none;
+  
+}
+.seven{
+   
+    background: #109E97;
+font-style: normal;
+font-weight: 400;
+display: block;
+font-size: 14px;
+line-height: 80px;
+text-align: center;
+color: #FFFFFF;
+}
 
 
 
-
-
-
-
-
+.word{
+text-align: center;
+}
+.click{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+text-align: center;
+color: #0000EE;
+}
+.sekill{
+width: 150px;
+text-align: center;
+margin-top: 30px;
+}

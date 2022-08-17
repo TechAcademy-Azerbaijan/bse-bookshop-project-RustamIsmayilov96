@@ -1,0 +1,259 @@
+.boxx{
+    width: 70%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background: #109E97;
+    position: relative;
+}
+
+.header-text{
+ position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 50px; 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 454px;
+    border: 2px solid #FFD6D6;
+    margin: auto
+}
+.box1{
+position: absolute;
+width: 70%; 
+border: 2px solid #B0E9B0;
+top: 0;
+right: 0
+}
+.Basliq{
+    width: 602px;
+    height: 26px;
+    left: 752px;
+    top: 234px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #000000;
+}
+.image{
+width: 300px;
+height: 450px;
+left: 370px;
+top: 234px;
+background: url(.jpg);
+border-radius: 0px;
+}
+.sil{
+
+}
+
+b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+.sil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF0000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration:line-through;
+}
+.box2{
+ position: absolute;
+width: 70%; 
+border: 2px solid #B0E9B0;
+bottom: 0;
+right: 0
+}
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;  
+}
+span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+letter-spacing: 2px;
+
+color: #000000;
+}
+.Sebet{
+      width: 149px;
+      height: 48px;
+      left: 752px;
+       top: 634px;
+    background: #109E97;
+    border: 1px solid #109E97;
+    border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color:#ffffff;
+}
+.box3{
+margin: auto;
+    margin-top: 130px;
+    width: 100%;
+    border: 2px solid #FFD6D6;
+    
+}
+h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.third{
+/* border: 1px solid #808080; */
+border-collapse: collapse
+}
+
+.third tr{
+    border-bottom: 1px solid black;
+}
+
+.third td{
+    padding: 8px
+}
+
+
+.four{
+    width: 300px;
+    height: 455px;
+    left: 1176px;
+    top: 1133px;
+    
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.five{
+    width: 300px;
+    height: 455px;
+    left: 1176px;
+    top: 1133px;
+    
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.six{
+  text-align: center;
+}
+.seven{
+    box-sizing: border-box;
+    background: #109E97;
+    border-radius: 0px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 80px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.gonder{
+    width: 91px;
+    height: 48px;
+    left: 873px;
+    top: 1524px;
+    
+    background: #109E97;
+    border: 1px solid #109E97;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+}
+.first{
+
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 26px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.icon1{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 300px;
+}
+.icon2{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 360px;
+}
+.icon3{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 420px;
+}
+.icon4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top: 480px;
+}
+.icon5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top:540px;
+}
+
+
+
+
+
+
+
+
+
+
