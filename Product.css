@@ -1,55 +1,200 @@
-.boxx{
-    width: 70%;
-    margin: auto;
-}
-header{
+   header{
     width: 100%;
     height: 130px;
-    background: #109E97;
+    background: #FFFFFF;
     position: relative;
 }
-
 .header-text{
- position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%,-50%);
+       font-family: 'Lobster';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 49px;
+       line-height: 50px; 
+       color: #109E97;
+       text-decoration: none;
+   }
+nav{
+    background-color:#109E97; 
+    Width:100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-link a{
+   text-decoration: none;
+   color: #FFFFFF;
+   font-size: 18px;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+   padding: 20px 0;
+}
+.nav-links{
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   list-style: none;
+}
+.nav-link{
+   border-left: 1px white;
+   width: 20%;
+   border-right: 1px solid white
 
-    font-family: 'Lobster';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 49px;
-    line-height: 50px; 
-    color: #FFFFFF;
-    text-decoration: none;
+}
+nav ul li a:hover{  
+    color: #109E97;
+    background-color: #FFFFFF;
+  
+}
+.nav-link:nth-child(4){
+    background-color:#093f3c;
+}
+.nav-link:first-child{
+   border-left: 1px solid white
+}
+
+.boxx{
+  
+    width:70%;
+    margin: auto;
+}
+
+.icon1{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 300px;
+}
+.icon2{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 360px;
+}
+.icon3{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 90%;
+top: 420px;
+}
+.icon4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top: 480px;
+}
+.icon5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top:540px;
 }
 .box{
-    position: relative;
+ display: flex;
+margin-top: 99px;
     width: 100%;
-    height: 454px;
-    border: 2px solid #FFD6D6;
-    margin: auto
+    border: 2px ;
+    
 }
 .box1{
-position: absolute;
-width: 70%; 
-border: 2px solid #B0E9B0;
+display: flex;
+flex-direction: column;
+
+margin-top: 30px;
 top: 0;
 right: 0
 }
-.Basliq{
-    width: 602px;
-    height: 26px;
-    left: 752px;
-    top: 234px;
+
+.qiymet{
+    display: flex;
+    justify-content: flex-end;
+}
+.box2{
+    margin-top: 70px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+  
+   
+ }
+    .box2 h3{
+    text-align: end;
+    margin: 1rem;
+
+}
+
+.dd{
+    display: flex;
+    justify-content: flex-end;
+}
+.Sebet{
+ 
+      width: 149px;
+      height: 48px;
+      
+      background: #109E97;
+      border: 1px solid #109E97;
+      border-radius: 4px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      color:#ffffff;
+
+}
+.ss{
+     width: 60%;
+     height: 60%;
+     overflow-y: scroll;
+     direction: rtl;
+
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 18px;
+     /* or 100% */
+     
+     text-align: right;
+     letter-spacing: 2px;
+     
+     color: #000000;
+}
+
+
+p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000; 
+    font-weight: bold; 
+}
+
+.Basliq{
+     display: flex;
+     justify-content: end;
+     height: 26px;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 26px;
+     line-height: 26px;
+     color: #000000;
 }
 .image{
+   
 width: 300px;
 height: 450px;
 left: 370px;
@@ -57,8 +202,12 @@ top: 234px;
 background: url(.jpg);
 border-radius: 0px;
 }
-.sil{
-
+.reng:focus{
+background-color:yellow;
+}
+.qalicka:focus{
+width: 20px;
+height: 20px;
 }
 
 b{
@@ -70,59 +219,24 @@ b{
     line-height: 29px;
 }
 .sil{
+    display: flex;
+   align-items:flex-end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FF0000;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
+    
     text-decoration:line-through;
 }
-.box2{
- position: absolute;
-width: 70%; 
-border: 2px solid #B0E9B0;
-bottom: 0;
-right: 0
-}
-p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    color: #000000;  
-}
-span{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 18px;
-letter-spacing: 2px;
 
-color: #000000;
-}
-.Sebet{
-      width: 149px;
-      height: 48px;
-      left: 752px;
-       top: 634px;
-    background: #109E97;
-    border: 1px solid #109E97;
-    border-radius: 4px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 23px;
-color:#ffffff;
-}
+
+
 .box3{
 margin: auto;
     margin-top: 130px;
     width: 100%;
-    border: 2px solid #FFD6D6;
+    border: 2px ;
     
 }
 h3{
@@ -170,6 +284,7 @@ border-radius: 0px;
 .six{
   text-align: center;
 }
+
 .seven{
     box-sizing: border-box;
     background: #109E97;
@@ -212,42 +327,12 @@ text-align: center;
 text-transform: uppercase;
 color: #000000;
 }
-.icon1{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 300px;
+.box4{
+    margin-top: 130px;
 }
-.icon2{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 360px;
+.box4:hover{
+    opacity: 0.5;
 }
-.icon3{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 420px;
-}
-.icon4{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 90%;
-    top: 480px;
-}
-.icon5{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 90%;
-    top:540px;
-}
-
 
 
 
