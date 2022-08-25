@@ -58,59 +58,43 @@ nav ul li a:hover{
 
 .boxx{
   
-    width:70%;
+    padding: 0px 20%;
     margin: auto;
 }
 
-.icon1{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 300px;
-}
-.icon2{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 360px;
-}
-.icon3{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 90%;
-top: 420px;
-}
-.icon4{
-    position: absolute;
+
+ .social-icon{
     width: 50px;
     height: 50px;
-    left: 90%;
-    top: 480px;
-}
-.icon5{
-    position: absolute;
+ }
+.arrow{
     width: 50px;
     height: 50px;
-    left: 90%;
-    top:540px;
 }
+
+ .icons{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+ 
 .box{
  display: flex;
 margin-top: 99px;
+height: 430px;
     width: 100%;
     border: 2px ;
-    
+    gap:10%;
 }
 .box1{
 display: flex;
 flex-direction: column;
-
 margin-top: 30px;
 top: 0;
-right: 0
+right: 0;
+
 }
 
 .qiymet{
@@ -119,10 +103,11 @@ right: 0
 }
 .box2{
     margin-top: 70px;
-   
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-self:flex-end;
   
    
  }
@@ -136,6 +121,95 @@ right: 0
     display: flex;
     justify-content: flex-end;
 }
+@media (max-width:1024px){
+   .boxx{
+    width: 60%;
+    padding: 0;
+   } 
+   .box{
+    height: auto;
+   }
+   .box img{
+    width:100%;
+   }
+    .box4 img{
+        display:none;
+    }
+   .box1{
+    width: 100%;
+   }
+    .nav-links{
+   width: 100%;
+}
+.box2{
+    width: 100%;
+}
+
+}
+@media (max-width:768px) {
+    .boxx{
+        width: 80%;
+        padding: 0;
+    }
+    .nav-links{
+        width: 100%;
+     }
+     div img{
+        display: flex;
+        flex-direction: column;
+     }
+     .ss{
+        overflow-y: scroll;
+        direction: rtl;
+   }
+   
+ 
+}
+
+
+
+  @media (max-width:600px)  {
+
+    .icons{
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+    }
+   
+    .header-text{
+        font-family: Lobster;
+        width: 100%;
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 100% !important;
+    }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+  }
+  .qiymet{
+    border-bottom:1px solid black;
+  }
+  .ss{
+    width: 100%;
+        overflow-y: scroll;
+        direction: rtl;
+   }
+   
+  }
+ 
+
+
 .Sebet{
  
       width: 149px;
@@ -153,22 +227,8 @@ right: 0
 
 }
 .ss{
-     width: 60%;
-     height: 60%;
      overflow-y: scroll;
      direction: rtl;
-
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 18px;
-     /* or 100% */
-     
-     text-align: right;
-     letter-spacing: 2px;
-     
-     color: #000000;
 }
 
 
@@ -185,7 +245,7 @@ p{
 .Basliq{
      display: flex;
      justify-content: end;
-     height: 26px;
+ 
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 400;
@@ -194,11 +254,6 @@ p{
      color: #000000;
 }
 .image{
-   
-width: 300px;
-height: 450px;
-left: 370px;
-top: 234px;
 background: url(.jpg);
 border-radius: 0px;
 }
@@ -261,21 +316,11 @@ border-collapse: collapse
 
 
 .four{
-    width: 300px;
-    height: 455px;
-    left: 1176px;
-    top: 1133px;
-    
-
 background: url(.jpg);
 border-radius: 0px;
 
 }
 .five{
-    width: 300px;
-    height: 455px;
-    left: 1176px;
-    top: 1133px;
     
 background: url(.jpg);
 border-radius: 0px;
