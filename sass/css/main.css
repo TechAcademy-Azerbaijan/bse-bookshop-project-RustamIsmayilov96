@@ -1,0 +1,415 @@
+@import url("http://fonts.cdnfonts.com/css/euclid-circular-a");
+.card {
+  width: 240px;
+  height: 320px;
+  background-color: #FFFFFF;
+}
+
+.card1 {
+  width: 176px;
+  height: 320px;
+  border: 1px solid rgb(255, 255, 255);
+  color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+.general {
+  background-image: url("../../Image/backround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+}
+.general .container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.general .container img {
+  width: 100px;
+}
+.general .container nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.general .container nav .navbar {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+.general .container nav a {
+  text-decoration: none;
+  color: white;
+}
+.general .container nav a:hover {
+  color: #43BA7F;
+}
+.general .container nav .nav-item-4 {
+  background: #43BA7F;
+  border-radius: 24px;
+  padding: 10px 15px;
+}
+.general .text {
+  margin-top: 200px;
+  width: 913px;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+}
+.general .text1 {
+  color: #FFFFFF;
+}
+.general .text2 {
+  color: #FF8145;
+}
+.general .image {
+  margin-top: 40px;
+  bottom: -40px;
+  width: 60%;
+  z-index: 1;
+}
+
+.second {
+  background: #FBF5F2;
+}
+.second .box-z {
+  margin-top: 310px;
+  width: 90%;
+  height: 710px;
+  display: flex;
+}
+.second .box-card1 {
+  border-right: 1px solid black;
+  padding-right: 30px;
+  height: 200px;
+}
+.second .box-card1 .yazi {
+  font-size: 24px;
+  color: #43BA7F;
+}
+.second .box-card1 .yazi1 {
+  font-weight: 600;
+  font-size: 34px;
+  width: 260px;
+}
+.second .box2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.second .box2 .box-card {
+  display: flex;
+  margin-top: 48px;
+}
+.second .box2 .box-card .qw {
+  margin-left: 44px;
+}
+.second .box2 .box-card .qw .qz {
+  margin-top: 16px;
+}
+
+.third {
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 105px;
+}
+.third .bb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+.third .as1 {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fourth {
+  margin-top: 95px;
+  gap: 16px;
+  display: flex;
+}
+.fourth .y1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #43BA7F;
+}
+.fourth .vc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.fourth .y2 {
+  display: flex;
+}
+.fourth .s1 {
+  margin-top: 35px;
+  width: 592px;
+  height: 827px;
+}
+.fourth .s2 {
+  width: 592px;
+  height: 827px;
+}
+.fourth .cc {
+  position: absolute;
+  width: 150px;
+  height: 43px;
+  margin-top: 200px;
+  font-size: 34px;
+  color: #FFFFFF;
+}
+.fourth .zz {
+  margin-top: 80px;
+  font-size: 20px;
+  text-align: right;
+  color: #3878F2;
+}
+.fourth .z1 {
+  width: 16px;
+  height: 15px;
+  color: #3878F2;
+}
+
+.fifth {
+  margin-top: 104px;
+  background-color: hsl(0deg, 0%, 0%);
+  width: 1440px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.fifth .f1 {
+  transform: rotateY(90 deg);
+  color: #FFFFFF;
+  font-size: 24px;
+  transform: rotate(270deg);
+}
+.fifth .df {
+  margin-top: 32px;
+  margin-left: 22px;
+}
+.fifth .dg {
+  width: 122px;
+  margin-top: 50px;
+  margin-left: 24px;
+}
+.fifth .dh {
+  margin-top: 90px;
+  margin-left: 25px;
+}
+.fifth .dj {
+  margin-top: 48px;
+  margin-left: 25px;
+}
+.fifth .dk {
+  margin-top: 65px;
+  margin-left: 25px;
+}
+
+.sixth {
+  width: 1440px;
+  height: 688px;
+  background-color: #FAF4E7;
+}
+.sixth .s1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sixth .cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+.sixth .cards .card {
+  z-index: 2;
+}
+.sixth .cards img {
+  position: absolute;
+}
+.sixth .cards .s4 {
+  z-index: 1;
+  left: -20px;
+  bottom: -70px;
+}
+.sixth .cards .s5 {
+  right: 0;
+  bottom: 170px;
+  z-index: 3;
+}
+.sixth .cards .s6 {
+  right: 0;
+  bottom: 20px;
+}
+.sixth .s2 {
+  margin-top: 72px;
+  font-size: 20px;
+  color: #43BA7F;
+}
+.sixth .s3 {
+  margin-top: 16px;
+  font-size: 34px;
+}
+.sixth .s7 {
+  margin-top: 72px;
+  text-align: center;
+  font-size: 48px;
+}
+.sixth .s8 {
+  margin-top: 49px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.seventh {
+  width: 100%;
+  height: 544px;
+  background-color: black;
+}
+.seventh .sv1 {
+  transform: rotateY(90 deg);
+  color: #FFFFFF;
+  font-size: 24px;
+  transform: rotate(270deg);
+}
+.seventh .sv2 {
+  margin-top: 38px;
+  margin-left: 328px;
+  width: 136px;
+}
+.seventh .sv3 {
+  margin-top: 158px;
+  margin-left: 640px;
+  width: 488px;
+  color: #FFFFFF;
+}
+
+.eigth {
+  margin-top: 100px;
+  gap: 32px;
+}
+.eigth .azz1 {
+  font-size: 34px;
+  text-align: center;
+}
+.eigth .az1 {
+  width: 50%;
+}
+.eigth .aza1 {
+  color: #43BA7F;
+}
+.eigth .aza2 {
+  margin-top: 24px;
+  width: 488px;
+  height: 64px;
+}
+.eigth .aza3 {
+  margin-top: 16px;
+}
+.eigth .aza4 {
+  margin-top: 24px;
+  width: 488px;
+  height: 64px;
+  color: #43BA7F;
+}
+.eigth .az2 {
+  width: 50%;
+}
+.eigth .az3 {
+  display: flex;
+  margin-top: 70px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin-top: 130px;
+}
+.foot .tt {
+  width: 400px;
+}
+.foot .tt .t1 {
+  margin-top: 40px;
+  margin-left: 90px;
+}
+.foot .tt .word {
+  color: #3D4045;
+}
+.foot .tt .t2 {
+  display: flex;
+  margin-top: 34px;
+  margin-left: 90px;
+}
+.foot .tt .t3 {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+.foot .navv {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.foot .navv a {
+  text-decoration: none;
+  color: #3D4045;
+}
+.foot .navv a:hover {
+  color: #43BA7F;
+}
+.foot .box-5 {
+  margin-top: 40px;
+}
+.foot .box-5 .ert {
+  width: 248px;
+  height: 48px;
+  background: #FBF5F2;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+.foot .box-5 .ery {
+  width: 96px;
+  height: 48px;
+  background: #43BA7F;
+  border-radius: 16px;
+}
+.foot .box-5 .dfg {
+  color: #3D4045;
+}
+.foot .box-5 .hjk {
+  display: flex;
+  margin-top: 32px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
