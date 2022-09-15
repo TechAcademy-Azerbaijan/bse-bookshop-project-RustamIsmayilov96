@@ -1,15 +1,22 @@
 @import url("http://fonts.cdnfonts.com/css/euclid-circular-a");
 .card {
-  width: 240px;
-  height: 320px;
+  width: 15rem;
+  height: 20rem;
   background-color: #FFFFFF;
 }
 
 .card1 {
-  width: 176px;
-  height: 320px;
-  border: 1px solid rgb(255, 255, 255);
+  width: 11rem;
+  height: 20rem;
+  border: 1px solid #343434;
+  border-radius: 8px;
   color: #FFFFFF;
+}
+
+.common-container {
+  max-width: 80rem;
+  padding: 10px 3rem;
+  margin: auto;
 }
 
 * {
@@ -26,16 +33,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 900px;
+  height: 60rem;
 }
 .general .container {
-  width: 90%;
+  width: 100%;
+  max-width: 85rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 3rem;
 }
-.general .container img {
+.general .container .burger {
+  display: none;
+}
+.general .container .imaq {
   width: 100px;
 }
 .general .container nav {
@@ -61,11 +72,9 @@
   padding: 10px 15px;
 }
 .general .text {
+  width: 990px;
   margin-top: 200px;
-  width: 913px;
-  font-weight: 400;
   font-size: 96px;
-  line-height: 120px;
   text-align: center;
 }
 .general .text1 {
@@ -83,11 +92,10 @@
 
 .second {
   background: #FBF5F2;
+  width: 100%;
+  padding-top: 20rem;
 }
 .second .box-z {
-  margin-top: 310px;
-  width: 90%;
-  height: 710px;
   display: flex;
 }
 .second .box-card1 {
@@ -135,182 +143,186 @@
 .third .as1 {
   margin-top: 72px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.third .as1 .pu {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.fourth {
-  margin-top: 95px;
-  gap: 16px;
+.fourth .common-container .fourth-common {
   display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
 }
-.fourth .y1 {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  color: #43BA7F;
-}
-.fourth .vc {
+.fourth .common-container .fourth-common .fourth-one {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
-.fourth .y2 {
-  display: flex;
+.fourth .common-container .fourth-common .fourth-one .y1 {
+  font-size: 20px;
+  color: #43BA7F;
 }
-.fourth .s1 {
-  margin-top: 35px;
-  width: 592px;
-  height: 827px;
+.fourth .common-container .fourth-common .fourth-one .y2 {
+  width: 19rem;
+  gap: 2rem;
 }
-.fourth .s2 {
-  width: 592px;
-  height: 827px;
+.fourth .common-container .fourth-common .fourth-one .s1 {
+  position: relative;
 }
-.fourth .cc {
-  position: absolute;
-  width: 150px;
-  height: 43px;
-  margin-top: 200px;
+.fourth .common-container .fourth-common .fourth-one .cc {
   font-size: 34px;
   color: #FFFFFF;
+  position: absolute;
+  margin-top: 2rem;
 }
-.fourth .zz {
-  margin-top: 80px;
+.fourth .common-container .fourth-common .fourth-two {
+  gap: 3rem;
+}
+.fourth .common-container .fourth-common .fourth-two .zz {
+  margin-top: 5rem;
   font-size: 20px;
   text-align: right;
+}
+.fourth .common-container .fourth-common .fourth-two .zz a {
+  text-decoration: none;
   color: #3878F2;
 }
-.fourth .z1 {
-  width: 16px;
-  height: 15px;
+.fourth .common-container .fourth-common .fourth-two .zz .z1 {
   color: #3878F2;
+}
+.fourth .common-container .fourth-common .fourth-two .z1 {
+  width: 1 rem;
+  height: 15px;
 }
 
 .fifth {
-  margin-top: 104px;
-  background-color: hsl(0deg, 0%, 0%);
-  width: 1440px;
-  height: 512px;
+  width: 100%;
+  background: black;
+}
+.fifth .common-container .fifth-common {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+  padding: 4rem 1rem;
 }
-.fifth .f1 {
-  transform: rotateY(90 deg);
+.fifth .common-container .fifth-common .f1 {
+  width: 100%;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 22px;
   transform: rotate(270deg);
 }
-.fifth .df {
-  margin-top: 32px;
-  margin-left: 22px;
+.fifth .common-container .fifth-common .card-in1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem 2rem;
 }
-.fifth .dg {
-  width: 122px;
-  margin-top: 50px;
-  margin-left: 24px;
-}
-.fifth .dh {
-  margin-top: 90px;
-  margin-left: 25px;
-}
-.fifth .dj {
-  margin-top: 48px;
-  margin-left: 25px;
-}
-.fifth .dk {
-  margin-top: 65px;
-  margin-left: 25px;
+.fifth .common-container .fifth-common .card-in {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 2rem;
 }
 
 .sixth {
-  width: 1440px;
-  height: 688px;
+  width: 100%;
+  height: 100%;
   background-color: #FAF4E7;
 }
-.sixth .s1 {
+.sixth .common-container .sixth-in {
+  margin-top: 5rem;
+  margin-bottom: 9rem;
+}
+.sixth .common-container .sixth-in .s1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 5rem;
 }
-.sixth .cards {
+.sixth .common-container .sixth-in .s1 .s2 {
+  font-size: 20px;
+  color: #43BA7F;
+}
+.sixth .common-container .sixth-in .s1 .s3 {
+  font-size: 34px;
+}
+.sixth .common-container .sixth-in .cards {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 40px;
+  gap: 3rem;
   position: relative;
   width: 70%;
   margin: auto;
 }
-.sixth .cards .card {
+.sixth .common-container .sixth-in .cards .card {
   z-index: 2;
 }
-.sixth .cards img {
+.sixth .common-container .sixth-in .cards .card .card-inn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+.sixth .common-container .sixth-in .cards .card .card-inn .s7 {
+  font-size: 3rem;
+}
+.sixth .common-container .sixth-in .cards .card .card-inn .s8 {
+  font-size: 1.25rem;
+}
+.sixth .common-container .sixth-in .cards img {
   position: absolute;
 }
-.sixth .cards .s4 {
+.sixth .common-container .sixth-in .cards .s4 {
   z-index: 1;
-  left: -20px;
-  bottom: -70px;
+  left: -6rem;
+  bottom: -2rem;
 }
-.sixth .cards .s5 {
-  right: 0;
-  bottom: 170px;
+.sixth .common-container .sixth-in .cards .s5 {
+  right: -2rem;
+  bottom: 14rem;
   z-index: 3;
 }
-.sixth .cards .s6 {
-  right: 0;
-  bottom: 20px;
-}
-.sixth .s2 {
-  margin-top: 72px;
-  font-size: 20px;
-  color: #43BA7F;
-}
-.sixth .s3 {
-  margin-top: 16px;
-  font-size: 34px;
-}
-.sixth .s7 {
-  margin-top: 72px;
-  text-align: center;
-  font-size: 48px;
-}
-.sixth .s8 {
-  margin-top: 49px;
-  text-align: center;
-  font-size: 20px;
+.sixth .common-container .sixth-in .cards .s6 {
+  right: -2rem;
+  bottom: 4rem;
 }
 
 .seventh {
+  background: black;
   width: 100%;
-  height: 544px;
-  background-color: black;
 }
-.seventh .sv1 {
-  transform: rotateY(90 deg);
+.seventh .common-container .seven-one {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 4rem;
+  gap: 5rem;
+}
+.seventh .common-container .seven-one .sv1 {
   color: #FFFFFF;
   font-size: 24px;
   transform: rotate(270deg);
 }
-.seventh .sv2 {
-  margin-top: 38px;
-  margin-left: 328px;
-  width: 136px;
+.seventh .common-container .seven-one .svv {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
-.seventh .sv3 {
-  margin-top: 158px;
-  margin-left: 640px;
-  width: 488px;
+.seventh .common-container .seven-one .sv3 {
   color: #FFFFFF;
+  width: 31rem;
 }
 
 .eigth {
   margin-top: 100px;
-  gap: 32px;
+  margin-bottom: 8rem;
 }
 .eigth .azz1 {
   font-size: 34px;
@@ -342,68 +354,85 @@
 .eigth .az3 {
   display: flex;
   margin-top: 70px;
+  gap: 32px;
 }
 
 .foot {
-  display: flex;
-  justify-content: space-between;
   background-color: black;
-  margin-top: 130px;
+  width: 100%;
+  padding: 2rem 0;
 }
-.foot .tt {
-  width: 400px;
-}
-.foot .tt .t1 {
-  margin-top: 40px;
-  margin-left: 90px;
-}
-.foot .tt .word {
-  color: #3D4045;
-}
-.foot .tt .t2 {
+.foot .common-container .foot-common {
   display: flex;
-  margin-top: 34px;
-  margin-left: 90px;
+  justify-content: space-be;
+  gap: 9rem;
 }
-.foot .tt .t3 {
+.foot .common-container .foot-common .iconic {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot .common-container .foot-common .iconic .tt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot .common-container .foot-common .word {
+  color: #3D4045;
+  width: 15rem;
+}
+.foot .common-container .foot-common .t2 {
+  display: flex;
+}
+.foot .common-container .foot-common .t3 {
   display: flex;
   gap: 24px;
-  margin-top: 40px;
-  margin-left: 90px;
 }
-.foot .navv {
+.foot .common-container .foot-common .navv1 {
+  display: flex;
+  gap: 6rem;
+}
+.foot .common-container .foot-common .navv1 .navv {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.foot .navv a {
+.foot .common-container .foot-common .navv1 .navv a {
   text-decoration: none;
   color: #3D4045;
+  width: 7rem;
 }
-.foot .navv a:hover {
+.foot .common-container .foot-common .navv1 .navv a:hover {
   color: #43BA7F;
 }
-.foot .box-5 {
-  margin-top: 40px;
+.foot .common-container .foot-common .box-5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
 }
-.foot .box-5 .ert {
+.foot .common-container .foot-common .box-5 .qa {
+  display: flex;
+}
+.foot .common-container .foot-common .box-5 .ert {
   width: 248px;
   height: 48px;
   background: #FBF5F2;
   border-radius: 16px;
   margin-top: 16px;
 }
-.foot .box-5 .ery {
+.foot .common-container .foot-common .box-5 .ery {
   width: 96px;
   height: 48px;
   background: #43BA7F;
   border-radius: 16px;
+  color: white;
+  margin-top: 1rem;
 }
-.foot .box-5 .dfg {
+.foot .common-container .foot-common .dfg {
   color: #3D4045;
 }
-.foot .box-5 .hjk {
+.foot .common-container .foot-common .hjk {
   display: flex;
   margin-top: 32px;
 }
@@ -412,4 +441,142 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 480px) {
+  .general .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .general .container .burger {
+    display: block !important;
+  }
+  .general .container nav .navbar .nav-item-1 {
+    display: none;
+  }
+  .general .container nav .navbar .nav-item-2 {
+    display: none;
+  }
+  .general .container nav .navbar .nav-item-3 {
+    display: none;
+  }
+  .general .text {
+    width: 10rem;
+  }
+  .second .common-container .box-z {
+    display: flex;
+    flex-direction: column;
+  }
+  .second .common-container .box-z .box-card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: none;
+  }
+  .second .common-container .box-z .box-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third .common-container .as1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .third .common-container .as1 .pu {
+    display: flex;
+    flex-direction: row;
+  }
+  .fourth .common-container .fourth-common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth .common-container .fourth-common .fourth-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth .common-container .fourth-common .fourth-one .y2 {
+    text-align: center;
+  }
+  .fourth .common-container .fourth-common .fourth-one .s1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth .common-container .fourth-common .fourth-one .s1 img {
+    width: 100%;
+  }
+  .fourth .common-container .fourth-common .fourth-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth .common-container .fourth-common .fourth-two img {
+    width: 100%;
+  }
+  .fifth .common-container .fifth-common {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fifth .common-container .fifth-common .f1 {
+    transform: rotate(0);
+  }
+  .sixth .common-container .sixth-in .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .sixth .common-container .sixth-in .cards .s5 {
+    display: flex;
+    bottom: 62rem;
+  }
+  .sixth .common-container .sixth-in .cards .s6 {
+    bottom: 54rem;
+  }
+  .seventh .common-container .seven-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh .common-container .seven-one .sv1 {
+    transform: rotate(0);
+  }
+  .seventh .common-container .seven-one .svv .sv3 {
+    width: 100%;
+  }
+  .eigth .az2 {
+    width: 100%;
+  }
+  .eigth .az1 {
+    width: 100%;
+  }
+  .eigth .common-container .eigth-in {
+    display: flex;
+    flex-direction: column;
+  }
+  .eigth .common-container .eigth-in .az3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .eigth .common-container .eigth-in .az3 .az1 .aza2 {
+    width: 100%;
+  }
+  .eigth .common-container .eigth-in .az3 .az2 .aza4 {
+    width: 100%;
+  }
+  .eigth .common-container .eigth-in .az3 img {
+    width: 100%;
+  }
+  .foot .common-container .foot-common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .foot .common-container .foot-common .navv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 }/*# sourceMappingURL=main.css.map */

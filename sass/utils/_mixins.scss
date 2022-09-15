@@ -1,13 +1,18 @@
 .card{
-  
-    width: 240px;
-    height: 320px;
+    width: 15rem;
+    height: 20rem;
     background-color:#FFFFFF;
 }
 .card1{
-    width: 176px;
-    height: 320px;
-    border: 1px solid rgb(255, 255, 255);
+    width: 11rem;
+    height: 20rem;
+    border: 1px solid #343434;
+    border-radius: 8px;
     color: #FFFFFF;
     
+}
+.common-container{
+    max-width: 80rem;
+    padding: 10px 3rem;
+    margin: auto;
 }

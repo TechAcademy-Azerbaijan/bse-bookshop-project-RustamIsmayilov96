@@ -1,15 +1,22 @@
 @import url("http://fonts.cdnfonts.com/css/euclid-circular-a");
 .card {
-  width: 240px;
-  height: 320px;
+  width: 15rem;
+  height: 20rem;
   background-color: #FFFFFF;
 }
 
 .card1 {
-  width: 176px;
-  height: 320px;
-  border: 1px solid rgb(255, 255, 255);
+  width: 11rem;
+  height: 20rem;
+  border: 1px solid #343434;
+  border-radius: 8px;
   color: #FFFFFF;
+}
+
+.common-container {
+  max-width: 80rem;
+  padding: 10px 3rem;
+  margin: auto;
 }
 
 * {
@@ -20,12 +27,17 @@
 }
 
 .container {
+  width: 100%;
+  max-width: 85rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 3rem;
 }
-.container img {
+.container .burger {
+  display: none;
+}
+.container .imaq {
   width: 100px;
 }
 .container nav {
@@ -40,7 +52,7 @@
 }
 .container nav a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 .container nav a:hover {
   color: #43BA7F;
@@ -49,137 +61,231 @@
   background: #43BA7F;
   border-radius: 24px;
   padding: 10px 15px;
+  color: white;
 }
 
-.Basliq {
+.common-container .Basliq {
   display: flex;
   justify-content: center;
 }
-
-.yazi {
+.common-container .yazi {
   margin: auto;
   width: 800px;
   margin-top: 50px;
   text-align: center;
 }
-
-.yazi1 {
+.common-container .yazi1 {
   color: #677480;
   font-size: 20px;
   margin-left: 112px;
   margin-top: 64px;
 }
-
-.yazi2 {
+.common-container .yazi2 {
   font-size: 34px;
   margin-left: 112px;
 }
-
-.first {
+.common-container .first {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 70px;
 }
-.first ::placeholder {
+.common-container .first ::placeholder {
   color: #FF8145;
   opacity: 0.4;
   text-align: center;
   font-size: 20px;
   width: 100%;
 }
-.first .yazi3 {
+.common-container .first .yazi3 {
   font-size: 24px;
-  margin-left: 112px;
 }
-.first .type1 {
+.common-container .first .type1 {
   width: 20%;
   border: 0;
   border-bottom: 1px solid gray;
   outline: 0;
   background: #FAF4E7;
 }
-
-.sekond {
+.common-container .sekond {
   margin-top: 90px;
   margin-left: 112px;
 }
-
-.but1 {
+.common-container .but1 {
   margin-top: 65px;
   margin-left: 112px;
 }
-.but1 .but {
-  width: 176px;
-  height: 48px;
+.common-container .but1 a {
+  text-decoration: none;
+}
+.common-container .but1 .but {
   background: #43BA7F;
   border-radius: 24px;
+  padding: 10px 15px;
   color: #FFFFFF;
+  margin-bottom: 90px;
+}
+.common-container .but1 .bt {
+  margin-top: 90px;
+}
+.common-container .end {
+  height: 133px;
+  margin-top: 75px;
+  gap: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .foot {
-  display: flex;
-  justify-content: space-between;
   background-color: black;
-  margin-top: 130px;
+  width: 100%;
+  padding: 2rem 0;
 }
-.foot .tt {
-  width: 400px;
-}
-.foot .tt .t1 {
-  margin-top: 40px;
-  margin-left: 90px;
-}
-.foot .tt .word {
-  color: #3D4045;
-}
-.foot .tt .t2 {
+.foot .common-container .foot-common {
   display: flex;
-  margin-top: 34px;
-  margin-left: 90px;
+  justify-content: space-be;
+  gap: 9rem;
 }
-.foot .tt .t3 {
+.foot .common-container .foot-common .iconic {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot .common-container .foot-common .iconic .tt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot .common-container .foot-common .word {
+  color: #3D4045;
+  width: 15rem;
+}
+.foot .common-container .foot-common .t2 {
+  display: flex;
+}
+.foot .common-container .foot-common .t3 {
   display: flex;
   gap: 24px;
-  margin-top: 40px;
-  margin-left: 90px;
 }
-.foot .navv {
+.foot .common-container .foot-common .navv1 {
+  display: flex;
+  gap: 6rem;
+}
+.foot .common-container .foot-common .navv1 .navv {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.foot .navv a {
+.foot .common-container .foot-common .navv1 .navv a {
   text-decoration: none;
   color: #3D4045;
+  width: 7rem;
 }
-.foot .navv a:hover {
+.foot .common-container .foot-common .navv1 .navv a:hover {
   color: #43BA7F;
 }
-.foot .box-5 {
-  margin-top: 40px;
+.foot .common-container .foot-common .box-5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
 }
-.foot .box-5 .ert {
+.foot .common-container .foot-common .box-5 .qa {
+  display: flex;
+}
+.foot .common-container .foot-common .box-5 .ert {
   width: 248px;
   height: 48px;
   background: #FBF5F2;
   border-radius: 16px;
   margin-top: 16px;
 }
-.foot .box-5 .ery {
+.foot .common-container .foot-common .box-5 .ery {
   width: 96px;
   height: 48px;
   background: #43BA7F;
   border-radius: 16px;
+  color: white;
+  margin-top: 1rem;
 }
-.foot .box-5 .dfg {
+.foot .common-container .foot-common .dfg {
   color: #3D4045;
 }
-.foot .box-5 .hjk {
+.foot .common-container .foot-common .hjk {
   display: flex;
   margin-top: 32px;
 }
 
 main {
   background: #FAF4E7;
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .burger {
+    display: block !important;
+    color: black;
+  }
+  .container nav .navbar .nav-item-1 {
+    display: none;
+  }
+  .container nav .navbar .nav-item-2 {
+    display: none;
+  }
+  .container nav .navbar .nav-item-3 {
+    display: none;
+  }
+  .common-container .basliq {
+    display: flex;
+    flex-direction: column;
+  }
+  .common-container .yazi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .common-container .yazi1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .common-container .yazi2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .common-container .first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+  .common-container .first .type1 {
+    width: 100%;
+  }
+  .common-container .sekond {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .common-container .end {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .foot .common-container .foot-common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .foot .common-container .foot-common .navv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 }/*# sourceMappingURL=Contact1.css.map */
